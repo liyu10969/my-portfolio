@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX 设计师作品集</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 导航栏区块 -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a class="logo" href="#">logo</a>
+      <div class="nav-links">
+        <a href="#home">首页</a>
+        <a href="#works">作品集</a>
+        <a href="#about">关于我</a>
+        <a href="#contact">联系方式</a>
+        <a class="btn-primary" href="#contact">联系我</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 首页区块 -->
+  <section id="home" class="home-section">
+    <div class="home-bg"></div>
+    <div class="container home-content">
+      <span class="badge">UI/UX 设计师作品集</span>
+      <h1>将创意转化为<br>独特的设计体验</h1>
+      <p>专注于用户体验与界面设计的资深设计师，拥有 8 年设计经验。擅长将复杂的问题转化为优雅的设计解决方案。</p>
+      <div class="home-actions">
+        <a class="btn-primary" href="#works">浏览作品集</a>
+        <a class="btn-outline" href="#about">了解更多</a>
+      </div>
+      <div class="home-stats">
+        <div><span>8+</span><br>年设计经验</div>
+        <div><span>120+</span><br>完成项目</div>
+        <div><span>50+</span><br>合作客户</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品集区块 -->
+  <section id="works" class="works-section">
+    <div class="container works-container">
+      <!-- 装饰性圆形背景 -->
+      <svg class="works-ellipse works-ellipse-top" width="354" height="334" style="position:absolute;top:-80px;right:0;z-index:0;" viewBox="0 0 354 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="177" cy="167" rx="177" ry="167" fill="#57E3BE" fill-opacity="0.18"/>
+      </svg>
+      <svg class="works-ellipse works-ellipse-bottom" width="242" height="242" style="position:absolute;bottom:0;right:32px;z-index:0;" viewBox="0 0 242 242" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="121" cy="121" rx="121" ry="121" fill="#6137DF" fill-opacity="0.12"/>
+      </svg>
+      <h2>精选作品</h2>
+      <div class="works-filters">
+        <button class="btn-primary-green">全部作品</button>
+        <button class="btn-secondary">UI 设计</button>
+        <button class="btn-secondary">品牌设计</button>
+        <button class="btn-secondary">插画设计</button>
+      </div>
+      <div class="works-gallery">
+        <div class="work-card"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/2c03f0b01516359d3951fdaab55e1308.png" alt="作品1"></div>
+        <div class="work-card"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/48ee7ffd80cb4c62dcc260345446b4f8.png" alt="作品2"></div>
+        <div class="work-card"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/72bafe20787db4446a7acfcd3ea89cbe.png" alt="作品3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我区块 -->
+  <section id="about" class="about-section">
+    <div class="container about-content">
+      <div class="about-img">
+        <img src="https://image-resource.mastergo.com/162316141651601/162316141651604/1b30411cb5ee1df6789fc63fb1348168.png" alt="关于我">
+      </div>
+      <div class="about-info">
+        <h2>关于我</h2>
+        <p>我是一名拥有 8 年设计经验的资深设计师，专注于用户体验与界面设计。毕业于中央美术学院设计系，曾在多家知名科技公司担任设计师职务。</p>
+        <p>我相信优秀的设计不仅要美观，更要解决实际问题。在工作中，我始终坚持以用户为中心，通过深入的研究和创新的思维，为客户提供最优的设计解决方案。</p>
+        <div class="about-skills">
+          <div>
+            <h3>专业技能</h3>
+            <ul>
+              <li>UI/UX 设计</li>
+              <li>品牌视觉设计</li>
+              <li>插画设计</li>
+              <li>交互原型设计</li>
+            </ul>
+          </div>
+          <div>
+            <h3>设计工具</h3>
+            <ul>
+              <li>Figma</li>
+              <li>Adobe Creative Suite</li>
+              <li>Sketch</li>
+              <li>Principle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系方式区块 -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-content">
+      <h2>联系我</h2>
+      <form class="contact-form">
+        <label>姓名
+          <input type="text" placeholder="请输入您的姓名">
+        </label>
+        <label>邮箱
+          <input type="email" placeholder="请输入您的邮箱">
+        </label>
+        <label>留言
+          <textarea placeholder="请输入您的留言"></textarea>
+        </label>
+        <button class="btn-primary" type="submit">发送消息</button>
+      </form>
+      <div class="contact-social">
+        <a href="#"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/ffcadc625163bd8ffacf379b2905c998.png" alt="社交1"></a>
+        <a href="#"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/1b30411cb5ee1df6789fc63fb1348168.png" alt="社交2"></a>
+        <a href="#"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/48ee7ffd80cb4c62dcc260345446b4f8.png" alt="社交3"></a>
+        <a href="#"><img src="https://image-resource.mastergo.com/162316141651601/162316141651604/72bafe20787db4446a7acfcd3ea89cbe.png" alt="社交4"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚区块 -->
+  <footer class="footer-section">
+    <div class="container footer-content">
+      <a class="logo" href="#">logo</a>
+      <span>© 2024 版权所有</span>
+    </div>
+  </footer>
+</body>
+</html> 
